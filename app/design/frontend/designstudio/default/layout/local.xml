@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<catalog_product_view>
+		<reference name="head">
+			<action method="removeItem"><type>skin_css</type><name>css/animate.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/bootstrap.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/bootstrap-theme.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/skin.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/custom.css</name></action>
+			<action method="removeItem"><type>skin_css</type><name>css/print.css</name></action>
+			
+			<action method="removeItem"><type>js</type><name>aitoc/dependable.js</name></action>
+			<action method="removeItem"><type>skin_js</type><name>aitoc/dependable.js</name></action>
+			<action method="removeItem"><type>js</type><name>magentothem/quickview/ma_quickview.js</name></action>
+			
+			<block type="core/text" name="styles.cdn" before="-">
+				<action method="setText">
+					<text>
+					<![CDATA[
+					<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css" />
+					]]>
+					</text>
+				</action>
+			</block>
+			<action method="addCss"><stylesheet>css/bootstrap.min.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/sk_fonts.min.css</stylesheet></action>
+		</reference>
+		<remove name="product.option.dependable" />
+		<remove name="breadcrumbs" />
+		<remove name="left" />
+		<remove name="right" />
+		<!--reference name="content">
+			<action method="setTemplate"><template>catalog/product/view.phtml</template></action>
+		</reference--> 
+	</catalog_product_view>
+</layout>

@@ -1,0 +1,78 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
+<title><?php echo $this->getTitle() ?></title>
+<meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
+<meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
+<meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+
+<link href="<?php echo $this->getSkinUrl('css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css" />
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css" />   
+<link href="<?php echo $this->getSkinUrl('css/style.css') ?>" rel="stylesheet" type="text/css" />
+ <!-- <link href="<?php echo $this->getSkinUrl('css/sk.min.css') ?>" rel="stylesheet" type="text/css" />  -->
+<link href="<?php echo $this->getSkinUrl('css/sk_fonts.min.css') ?>" rel="stylesheet" type="text/css" />
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = '<?php echo $this->helper('core/js')->getJsUrl('blank.html') ?>';
+    var BLANK_IMG = '<?php echo $this->helper('core/js')->getJsUrl('spacer.gif') ?>';
+//]]>
+</script>
+<![endif]-->
+
+<?php $JS_URL = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_JS) ?>
+
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/prototype.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>lib/ccard.js"></script>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/validation.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>scriptaculous/builder.js"></script>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/effects.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>scriptaculous/controls.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>scriptaculous/slider.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>varien/js.js"></script>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/form.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>mage/translate.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>mage/cookies.js"></script>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/product_options.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>varien/product.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>varien/configurable.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>calendar/calendar.js"></script>
+<script type="text/javascript" src="<?php echo $JS_URL ?>calendar/calendar-setup.js"></script>
+
+<?php //echo $this->getCssJsHtml() ?>
+<?php echo $this->getChildHtml() ?>
+<?php echo $this->helper('core/js')->getTranslatorScript() ?>
+<?php echo $this->getIncludes() ?>
+
+

@@ -1,0 +1,3192 @@
+2016-12-12T08:49:53+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 125.65
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 127.0.0.1
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 125.65
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 8F66DD02FD340A40DF8B6AE8F6F0AAA7
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 24557
+)
+
+2016-12-12T08:52:27+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 125.65
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 127.0.0.1
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 125.65
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 8F66DD02FD340A40DF8B6AE8F6F0AAA7
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 22927
+)
+
+2016-12-12T08:52:50+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 125.65
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 127.0.0.1
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 125.65
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 8F66DD02FD340A40DF8B6AE8F6F0AAA7
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 23244
+)
+
+2016-12-13T07:01:49+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 13.45
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 13.45
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 29BD95874531A557DFC2DE06244D3EBD
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 26992
+)
+
+2016-12-13T07:03:25+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 13.45
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 13.45
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 29BD95874531A557DFC2DE06244D3EBD
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 19810
+)
+
+2016-12-13T07:04:58+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000769
+            [x_amount] => 13.45
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000769
+            [description] => 
+            [amount] => 13.45
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => 0F808FE3DF59DFD089DF7050917C1129
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 19898
+)
+
+2016-12-14T06:33:46+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000770
+            [x_amount] => 94.9
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Tennessee
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Tennessee
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000770
+            [description] => 
+            [amount] => 94.90
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => A37C073F4395C6B965646C573CD3F173
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 23706
+)
+
+2016-12-15T06:53:26+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000771
+            [x_amount] => 55.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000771
+            [description] => 
+            [amount] => 55.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => 0E40C590558726BFB47693681D7F0EF8
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 24022
+)
+
+2016-12-15T09:07:44+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000772
+            [x_amount] => 80.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => m
+            [x_city] => m
+            [x_state] => Alabama
+            [x_zip] => 39701
+            [x_country] => US
+            [x_phone] => 9
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => m
+            [x_ship_to_city] => m
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 39701
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000772
+            [description] => 
+            [amount] => 80.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => 97380F1AB92638332F36803DAF7C66C6
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 27756
+)
+
+2016-12-16T14:38:14+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000773
+            [x_amount] => 244.9
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => asdwqer
+            [x_last_name] => qwer
+            [x_company] => 
+            [x_address] => asdf
+            [x_city] => asdf
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => asdf
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => asdwqer
+            [x_ship_to_last_name] => qwer
+            [x_ship_to_company] => 
+            [x_ship_to_address] => asdf
+            [x_ship_to_city] => asdf
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000773
+            [description] => 
+            [amount] => 244.90
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => B7D5A7A7D0EBA9208A443F76596CFC6C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 29232
+)
+
+2016-12-16T14:48:10+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000773-1
+            [x_amount] => 578.875
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => fernando
+            [x_last_name] => s
+            [x_company] => 
+            [x_address] => 202 west
+            [x_city] => San Dimas
+            [x_state] => California
+            [x_zip] => 91773
+            [x_country] => US
+            [x_phone] => 6263501024
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => fernando
+            [x_ship_to_last_name] => s
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 202 west
+            [x_ship_to_city] => San Dimas
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 91773
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 2.0625
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000773-1
+            [description] => 
+            [amount] => 578.88
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => A5A6A7A4CDCB9569266C7BC83B4F9A44
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 31297
+)
+
+2016-12-16T15:00:16+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000773-2
+            [x_amount] => 291.034
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => marina
+            [x_last_name] => okateva
+            [x_company] => 
+            [x_address] => 1144 1/2 huntington dr
+            [x_city] => south pasadena
+            [x_state] => California
+            [x_zip] => 91030
+            [x_country] => US
+            [x_phone] => 3107290206
+            [x_fax] => admin
+            [x_cust_id] => 7
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => marina
+            [x_ship_to_last_name] => okateva
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 1144 1/2 huntington dr
+            [x_ship_to_city] => south pasadena
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 91030
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 2.0625
+            [x_freight] => 22.059001
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000773-2
+            [description] => 
+            [amount] => 291.03
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => 4C95FB6E9449AD1D12BA37EDB0752B78
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 29232
+)
+
+2016-12-20T03:33:51+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 226.85
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => asf
+            [x_last_name] => asf
+            [x_company] => 
+            [x_address] => asdf
+            [x_city] => adsf
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 234
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => asf
+            [x_ship_to_last_name] => asf
+            [x_ship_to_company] => 
+            [x_ship_to_address] => asdf
+            [x_ship_to_city] => adsf
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000818
+            [description] => 
+            [amount] => 226.85
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 7
+            [md5_hash] => D3663D04108F4BF618BB322B5FB355E6
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9880
+)
+
+2016-12-20T04:04:26+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000819
+            [x_amount] => 273
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => asdfasd
+            [x_last_name] => fasdfas
+            [x_company] => 
+            [x_address] => fasdf
+            [x_city] => asdfasdf
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 13
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => asdfasdf@gasdfas.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => asdfasd
+            [x_ship_to_last_name] => fasdfas
+            [x_ship_to_company] => 
+            [x_ship_to_address] => fasdf
+            [x_ship_to_city] => asdfasdf
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000819
+            [description] => 
+            [amount] => 273.00
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 6365D094BCDA1FA76DB9C9E4CB305CBA
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11168
+)
+
+2016-12-30T09:00:30+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => tet
+            [x_company] => 
+            [x_address] => est
+            [x_city] => test
+            [x_state] => Alaska
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 2123
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => yuraineolivia@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => tet
+            [x_ship_to_company] => 
+            [x_ship_to_address] => est
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alaska
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9334
+)
+
+2016-12-30T09:04:24+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => tet
+            [x_company] => 
+            [x_address] => est
+            [x_city] => test
+            [x_state] => Alaska
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 2123
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => yuraineolivia@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => tet
+            [x_ship_to_company] => 
+            [x_ship_to_address] => est
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alaska
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9289
+)
+
+2016-12-30T09:05:19+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 234
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9587
+)
+
+2016-12-30T09:07:28+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 123
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => 
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9544
+)
+
+2016-12-30T09:09:24+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => yuraineolivia@gmail.com
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9337
+)
+
+2016-12-30T09:13:55+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => 
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9390
+)
+
+2016-12-30T09:14:46+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 472.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => test
+            [x_last_name] => test
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => test@test.com
+            [x_email_customer] => 1
+            [x_merchant_email] => 
+            [x_ship_to_first_name] => test
+            [x_ship_to_last_name] => test
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 472.60
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 73F17E4E49FB712591EA6FA0F4079B85
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9681
+)
+
+2016-12-30T09:34:48+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 550.579001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.quinanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 38.989501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 550.58
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => EFA5033B50C4FE96A63A287C6432B0E5
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9334
+)
+
+2016-12-30T09:35:04+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 550.579001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.quinanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 38.989501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 550.58
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => EFA5033B50C4FE96A63A287C6432B0E5
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9729
+)
+
+2016-12-30T09:38:07+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 550.579001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.qunanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 38.989501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 550.58
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => EFA5033B50C4FE96A63A287C6432B0E5
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9742
+)
+
+2016-12-30T09:46:44+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 550.579001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.qunanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 38.989501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 550.58
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => EFA5033B50C4FE96A63A287C6432B0E5
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9337
+)
+
+2016-12-30T09:46:52+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000818
+            [x_amount] => 550.579001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.qunanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 38.989501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 550.58
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => EFA5033B50C4FE96A63A287C6432B0E5
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9337
+)
+
+2016-12-30T11:14:05+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000819
+            [x_amount] => 205.739001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => harice.quinanola@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 14.569501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 205.74
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 0F3D65D12B00B945A29757AADE34BDEA
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 9896
+)
+
+2016-12-30T11:24:50+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000819
+            [x_amount] => 205.739001
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Yuraine Olivia
+            [x_last_name] => Gonzaga
+            [x_company] => 
+            [x_address] => San Francisco
+            [x_city] => California
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 12345
+            [x_fax] => 
+            [x_cust_id] => 9
+            [x_customer_ip] => 112.207.192.45
+            [x_customer_tax_id] => 
+            [x_email] => yuraineolivia@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => harice.quinanola@elementzinteractive.com
+            [x_ship_to_first_name] => Yuraine Olivia
+            [x_ship_to_last_name] => Gonzaga
+            [x_ship_to_company] => 
+            [x_ship_to_address] => San Francisco
+            [x_ship_to_city] => California
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 14.569501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 13
+            [response_reason_text] => (TESTMODE) The merchant login ID or password is invalid or the account is inactive.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 
+            [description] => 
+            [amount] => 205.74
+            [method] => 
+            [transaction_type] => auth_capture
+            [customer_id] => 
+            [md5_hash] => 0F3D65D12B00B945A29757AADE34BDEA
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 10160
+)
+
+2017-02-01T07:43:21+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000855
+            [x_amount] => 1094.9595
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Harice Dione
+            [x_last_name] => Quinanola
+            [x_company] => 
+            [x_address] => asdf
+            [x_city] => adf
+            [x_state] => California
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 123
+            [x_fax] => 
+            [x_cust_id] => 999
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => harice.quinanola@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Harice Dione
+            [x_ship_to_last_name] => Quinanola
+            [x_ship_to_company] => 
+            [x_ship_to_address] => asdf
+            [x_ship_to_city] => adf
+            [x_ship_to_state] => California
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 90.409501
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000855
+            [description] => 
+            [amount] => 1094.96
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 999
+            [md5_hash] => 0B80EFEA2FEFDBF3B932910813D78D54
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 8917
+)
+
+2017-02-01T23:30:28+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000856
+            [x_amount] => 2819.25
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Mong
+            [x_last_name] => Nawng
+            [x_company] => 
+            [x_address] => qwwertyuip
+            [x_city] => asfdgfhjg
+            [x_state] => Federated States Of Micronesia
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 23257657
+            [x_fax] => 
+            [x_cust_id] => 1024
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => mong.nawng@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Mong
+            [x_ship_to_last_name] => Nawng
+            [x_ship_to_company] => 
+            [x_ship_to_address] => qwwertyuip
+            [x_ship_to_city] => asfdgfhjg
+            [x_ship_to_state] => Federated States Of Micronesia
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000856
+            [description] => 
+            [amount] => 2819.25
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1024
+            [md5_hash] => CED5BC333006FEB2A6B68D6333597502
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 8917
+)
+
+2017-02-02T03:18:56+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000857
+            [x_amount] => 73.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Mong
+            [x_last_name] => Nawng
+            [x_company] => 
+            [x_address] => qwwertyuip
+            [x_city] => asfdgfhjg
+            [x_state] => Federated States Of Micronesia
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 23257657
+            [x_fax] => 
+            [x_cust_id] => 1024
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => mong.nawng@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Mong
+            [x_ship_to_last_name] => Nawng
+            [x_ship_to_company] => 
+            [x_ship_to_address] => qwwertyuip
+            [x_ship_to_city] => asfdgfhjg
+            [x_ship_to_state] => Federated States Of Micronesia
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000857
+            [description] => 
+            [amount] => 73.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1024
+            [md5_hash] => C00054701C91F0E368B8CE1F4A12E7AD
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11310
+)
+
+2017-02-02T03:38:46+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000858
+            [x_amount] => 84.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Mong
+            [x_last_name] => Nawng
+            [x_company] => 
+            [x_address] => qwwertyuip
+            [x_city] => asfdgfhjg
+            [x_state] => Federated States Of Micronesia
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => 23257657
+            [x_fax] => 
+            [x_cust_id] => 1024
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => mong.nawng@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Mong
+            [x_ship_to_last_name] => Nawng
+            [x_ship_to_company] => 
+            [x_ship_to_address] => qwwertyuip
+            [x_ship_to_city] => asfdgfhjg
+            [x_ship_to_state] => Federated States Of Micronesia
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000858
+            [description] => 
+            [amount] => 84.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1024
+            [md5_hash] => 18A67D83DF749881A5AB0DB4A2E72533
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11433
+)
+
+2017-02-03T01:35:24+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000859
+            [x_amount] => 142.45
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => PLDT
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000859
+            [description] => 
+            [amount] => 142.45
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 8DE8AE35B2695E6A745E57BFFBBEFCEA
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 14798
+)
+
+2017-02-06T00:55:49+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 1104.6
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => PLDT
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 2
+            [response_subcode] => 4
+            [response_reason_code] => 37
+            [response_reason_text] => The credit card number is invalid.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 8849449532
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 1104.60
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 4321E23EF8C0132E2C75197C54F7AC3F
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 1891
+)
+
+2017-02-06T06:58:39+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 59.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => PLDT
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 2
+            [response_subcode] => 4
+            [response_reason_code] => 37
+            [response_reason_text] => The credit card number is invalid.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 8849651676
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 59.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => D9D96FBD6494833635D093179543261E
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 6318
+)
+
+2017-02-06T07:10:53+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 59.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => PLDT
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 2
+            [response_subcode] => 4
+            [response_reason_code] => 37
+            [response_reason_text] => The credit card number is invalid.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 8849657461
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 59.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 9572E185C1A6F94546EE34495C82A67F
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 6241
+)
+
+2017-02-06T07:11:33+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 59.95
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => PLDT
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 1
+            [response_reason_code] => 11
+            [response_reason_text] => A duplicate transaction has been submitted.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 59.95
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 7472E5B5A16250C0BEEFA48ED0221274
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 6318
+)
+
+2017-02-08T01:31:19+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 54
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => ALexander Graham Bell
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 2
+            [response_subcode] => 4
+            [response_reason_code] => 37
+            [response_reason_text] => The credit card number is invalid.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 8852444489
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 54.00
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 2BC81FF347B03576CCE05D0D6B13E139
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 20524
+)
+
+2017-02-08T01:31:42+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000860
+            [x_amount] => 54
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => ALexander Graham Bell
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 43.226.7.246
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 1
+            [response_reason_code] => 11
+            [response_reason_text] => A duplicate transaction has been submitted.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 100000860
+            [description] => 
+            [amount] => 54.00
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => 4EF691B54A295355BB0A7DA5759B678C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 20614
+)
+
+2017-02-08T02:36:04+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000863
+            [x_amount] => 245.8
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Jann
+            [x_last_name] => Cuarto
+            [x_company] => 
+            [x_address] => Amua, Tapad Silingan
+            [x_city] => Sais City
+            [x_state] => Texas
+            [x_zip] => 
+            [x_country] => US
+            [x_phone] => ALexander Graham Bell
+            [x_fax] => 
+            [x_cust_id] => 1033
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => jann.cuarto@elementzinteractive.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Jann
+            [x_ship_to_last_name] => Cuarto
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Amua, Tapad Silingan
+            [x_ship_to_city] => Sais City
+            [x_ship_to_state] => Texas
+            [x_ship_to_zip] => 
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 1.0E-6
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 2
+            [response_subcode] => 4
+            [response_reason_code] => 37
+            [response_reason_text] => The credit card number is invalid.
+            [approval_code] => 
+            [avs_result_code] => P
+            [transaction_id] => 8852502011
+            [invoice_number] => 100000863
+            [description] => 
+            [amount] => 245.80
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1033
+            [md5_hash] => F50A1C15EB0F427CCDFDB9D82D640D16
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX3224
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 20695
+)
+
+2017-02-13T01:56:10+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000865
+            [x_amount] => 785.668
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Kai 
+            [x_last_name] => Zimmerman
+            [x_company] => Lady Liberties 
+            [x_address] => 19625 SE Jacoby RD
+            [x_city] => Sandy 
+            [x_state] => Oregon
+            [x_zip] => 97055
+            [x_country] => US
+            [x_phone] => 503-867-6351
+            [x_fax] => 
+            [x_cust_id] => 1044
+            [x_customer_ip] => 107.77.97.117
+            [x_customer_tax_id] => 
+            [x_email] => Kaizimm21@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Kai 
+            [x_ship_to_last_name] => Zimmerman
+            [x_ship_to_company] => Lady Liberties 
+            [x_ship_to_address] => 19625 SE Jacoby RD
+            [x_ship_to_city] => Sandy 
+            [x_ship_to_state] => Oregon
+            [x_ship_to_zip] => 97055
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 84.968001
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => This transaction has been approved.
+            [approval_code] => 075610
+            [avs_result_code] => Y
+            [transaction_id] => 8858782312
+            [invoice_number] => 100000865
+            [description] => 
+            [amount] => 785.67
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1044
+            [md5_hash] => 7E4A98736A2B5500955932C5F0198CF3
+            [card_code_response_code] => M
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX8464
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 32728
+)
+
+2017-02-14T18:04:03+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => FALSE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 100000866
+            [x_amount] => 284.288
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => True
+            [x_first_name] => Michael
+            [x_last_name] => Van Marter
+            [x_company] => 
+            [x_address] => 2535 East 91st Street
+            [x_city] => Indianapolis
+            [x_state] => Indiana
+            [x_zip] => 46240
+            [x_country] => US
+            [x_phone] => 3175015540
+            [x_fax] => 
+            [x_cust_id] => 1046
+            [x_customer_ip] => 68.51.52.80
+            [x_customer_tax_id] => 
+            [x_email] => mvm@vanmarter.com
+            [x_email_customer] => 1
+            [x_merchant_email] => gd@zeeni.com
+            [x_ship_to_first_name] => Michael
+            [x_ship_to_last_name] => Van Marter
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 2535 East 91st Street
+            [x_ship_to_city] => Indianapolis
+            [x_ship_to_state] => Indiana
+            [x_ship_to_zip] => 46240
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 61.788001
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => This transaction has been approved.
+            [approval_code] => 00296B
+            [avs_result_code] => Y
+            [transaction_id] => 8861142520
+            [invoice_number] => 100000866
+            [description] => 
+            [amount] => 284.29
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 1046
+            [md5_hash] => C5713D711E5252AFDEBD590A4135FBFF
+            [card_code_response_code] => M
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1287
+            [card_type] => MasterCard
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 24238
+)
+

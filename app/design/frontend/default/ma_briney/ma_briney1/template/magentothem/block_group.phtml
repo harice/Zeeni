@@ -1,0 +1,62 @@
+<div class="banner-top1">
+	<?php  echo $this->getLayout()->createBlock('cms/block')->setBlockId('ma_block_static_1')->toHtml(); ?>
+</div>
+<div class="block-end">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('newproductslider/newproductslider')->setTemplate('magentothem/newproductslider/newproductslider.phtml')->toHtml(); ?>
+			</div>
+			<div class="col-md-3 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('timer/timer')->setTemplate('magentothem/timer/timer.phtml')->toHtml(); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="free-shipping">
+	<div class="container">
+		<?php  echo $this->getLayout()->createBlock('cms/block')->setBlockId('free_shipping')->toHtml(); ?>
+	</div>
+</div>
+
+<div class="block-grop">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('featuredproductslider/featuredproductslider')->setTemplate('magentothem/featuredproductslider/featuredproductslider.phtml')->toHtml(); ?>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('bestsellerproductslider/bestsellerproductslider')->setTemplate('magentothem/bestsellerproductslider/bestsellerproductslider.phtml')->toHtml(); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="block-category-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('cms/block')->setBlockId('block_category')->toHtml(); ?>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('cms/block')->setBlockId('block_item')->toHtml(); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grop-all">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('onsaleslider/onsaleslider')->setTemplate('magentothem/onsaleslider/onsaleslider.phtml')->toHtml(); ?>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<?php  echo $this->getLayout()->createBlock('testimonial/sidebar')->toHtml(); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="blog-slider">
+	<div class="container">
+		<?php  echo $this->getLayout()->createBlock('blog/menu_sidebar')->setTemplate('magentothem_blog/blog_slide.phtml')->toHtml(); ?>
+	</div>
+</div>

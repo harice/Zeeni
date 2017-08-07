@@ -1,0 +1,606 @@
+<?php /* !!!ATTENTION!!! PLEASE DO NOT MODIFY THE FILE! 
+Copy it preserving its path from the var/ait_path folder to the
+app folder. i.e. in var/ait_path folder the file is located in folder 1, 
+then in the app folder you also need to make folder 1 and put the file in it.
+*/ ?><?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php echo $this->getTemplatesHtml() ?>
+
+<script type="text/javascript">
+//<![CDATA[
+var firstStepTemplate = '<div class="option-box" id="option_{{id}}">'+
+            '<table id="<?php echo $this->getFieldId() ?>_{{id}}" class="option-header" cellpadding="0" cellspacing="0">'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_is_delete" name="<?php echo $this->getFieldName() ?>[{{id}}][is_delete]" value="" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_previous_type" name="<?php echo $this->getFieldName() ?>[{{id}}][previous_type]" value="{{type}}" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_previous_group" name="<?php echo $this->getFieldName() ?>[{{id}}][previous_group]" value="" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_id" name="<?php echo $this->getFieldName() ?>[{{id}}][id]" value="{{id}}" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_option_id" name="<?php echo $this->getFieldName() ?>[{{id}}][option_id]" value="{{option_id}}" />'+
+            '<thead>'+
+                '<tr>'+
+                    '<th class="opt-title"><?php echo Mage::helper('catalog')->__('Title') ?> <span class="required">*</span></th>'+
+                    '<th class="opt-type"><?php echo Mage::helper('catalog')->__('Input Type') ?> <span class="required">*</span></th>'+
+                    '<th class="opt-req"><?php echo $this->jsQuoteEscape(Mage::helper('catalog')->__('Is Required')) ?></th>'+
+                    '<th class="opt-order"><?php echo Mage::helper('catalog')->__('Sort Order') ?></th>'+
+                    '<th class="a-right"><?php echo $this->jsQuoteEscape($this->getDeleteButtonHtml()) ?></th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tr>'+
+                '<td><input type="text" class="required-entry input-text" id="<?php echo $this->getFieldId() ?>_{{id}}_title" name="<?php echo $this->getFieldName() ?>[{{id}}][title]" value="{{title}}">{{checkboxScopeTitle}}</td>'+
+                '<td><?php echo $this->getTypeSelectHtml() ?></td>'+
+                '<td class="opt-req"><?php echo $this->getRequireSelectHtml() ?></td>'+
+                '<td><input type="text" class="validate-zero-or-greater input-text" name="<?php echo $this->getFieldName() ?>[{{id}}][sort_order]" value="{{sort_order}}"></td>'+
+                '<td>&nbsp;</td>'+
+            '</tr></table></div>';
+
+var productOption = {
+    div : $('product_options_container_top'),
+    templateSyntax : /(^|.|\r|\n)({{(\w+)}})/,
+    templateText : firstStepTemplate,
+    itemCount : 1,
+    add : function(data) {
+        this.template = new Template(this.templateText, this.templateSyntax);
+
+        if(!data.id){
+            data = {};
+            data.id  = this.itemCount;
+            data.type = '';
+            data.option_id = 0;
+        } else {
+            this.itemCount = data.item_count;
+        }
+
+        Element.insert(this.div, {'after':this.template.evaluate(data)});
+
+        //set selected type
+        if (data.type) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.id+'_type').options).each(function(option){
+                if (option.value==data.type) option.selected = true;
+            });
+        }
+
+        //set selected is_require
+        if (data.is_require) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.id+'_is_require').options).each(function(option){
+                if (option.value==data.is_require) option.selected = true;
+            });
+        }
+
+        if (data.checkboxScopeTitle) {
+            //set disabled
+            if ($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_title') && data.scopeTitleDisabled) {
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_title').disable();
+            }
+        }
+
+        this.itemCount++;
+        this.bindRemoveButtons();
+        productOptionType.bindSelectInputType();
+    },
+    remove : function(event){
+        var element = $(Event.findElement(event, 'div'));
+        if(element){
+            $('product_'+element.readAttribute('id')+'_'+'is_delete').value = '1';
+            element.addClassName('no-display');
+            element.addClassName('ignore-validate');
+            element.hide();
+        }
+    },
+    bindRemoveButtons : function(){
+        var buttons = $$('div.product-custom-options .delete-product-option');
+        for(var i=0;i<buttons.length;i++){
+            if(!$(buttons[i]).binded){
+                $(buttons[i]).binded = true;
+                Event.observe(buttons[i], 'click', this.remove.bind(this));
+            }
+        }
+        var inputs = $$('div.product-custom-options button', 'div.product-custom-options input', 'div.product-custom-options select', 'div.product-custom-options textarea');
+        <?php if ($this->isReadonly()):?>
+        for (var i=0, l = inputs.length; i < l; i ++) {
+            inputs[i].disabled = true;
+            if (inputs[i].tagName.toLowerCase()=='button') {
+                inputs[i].addClassName('disabled');
+            }
+        }
+        <?php else: ?>
+            inputs.each(function(el) { Event.observe(el, 'change', el.setHasChanges.bind(el));  } )
+        <?php endif;?>
+    }
+}
+
+
+var productOptionType = {
+    templateSyntax : /(^|.|\r|\n)({{(\w+)}})/,
+    loadStepTwo : function(event){
+        var element = $(Event.findElement(event, 'select'));
+
+        var group = '';
+        var previousGroupElm = $(element.readAttribute('id').sub('_type', '_previous_group'));
+
+        switch(element.getValue()){
+            case 'field':
+            case 'area':
+                template = OptionTemplateText;
+                group = 'text';
+                break;
+            case 'file':
+                template = OptionTemplateFile;
+                group = 'file';
+                break;
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                template = OptionTemplateSelect;
+                group = 'select';
+                break;
+            case 'date':
+            case 'date_time':
+            case 'time':
+                template = OptionTemplateDate;
+                group = 'date';
+                break;
+            default:
+                template = '';
+                group = 'unknown';
+                break;
+        }
+
+        if (previousGroupElm.getValue() != group) {
+            if ($(element.readAttribute('id')+'_'+previousGroupElm.getValue())) {
+                formElm = $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).descendants();
+                formElm.each(function(elm){
+                    if (elm.tagName == 'input' || elm.tagName == 'select') {
+                        elm.name = '__delete__'+elm.readAttribute('name');
+                    }
+                });
+
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).addClassName('no-display');
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).addClassName('ignore-validate');
+                $(element.readAttribute('id')+'_'+previousGroupElm.getValue()).hide();
+            }
+
+            previousGroupElm.value = group;
+
+            if ($(element.readAttribute('id')+'_'+group)) {
+                formElm = $(element.readAttribute('id')+'_'+group).descendants();
+                formElm.each(function(elm){
+                    if (elm.match('input') || elm.match('select')) {
+                        elm.name = elm.readAttribute('name').sub('__delete__', '');
+                    }
+                });
+                $(element.readAttribute('id')+'_'+group).removeClassName('no-display');
+                $(element.readAttribute('id')+'_'+group).removeClassName('ignore-validate');
+                $(element.readAttribute('id')+'_'+group).show();
+
+            } else {
+                template = '<div id="'+element.readAttribute('id')+'_'+group+'" class="grid tier form-list">'+template+'</div><div id="'+element.readAttribute('id')+'_'+group+'_advice"></div';
+                this.secondTemplate = new Template(template, this.templateSyntax);
+
+                data = {};
+                if (!data.option_id) {
+                    data = {};
+                    data.option_id = $(element.readAttribute('id').sub('_type', '_id')).getValue();
+                }
+
+                Element.insert(element.readAttribute('id').sub('_type', ''), {'after':this.secondTemplate.evaluate(data)});
+
+                switch(element.getValue()){
+                    case 'drop_down':
+                    case 'radio':
+                    case 'checkbox':
+                    case 'multiple':
+                        selectOptionType.bindAddButton();
+                        break;
+                }
+            }
+        }
+    },
+    addDataToValues : function(data){
+
+        switch(data.type){
+            case 'field':
+            case 'area':
+                template = OptionTemplateText;
+                group = 'text';
+                break;
+            case 'file':
+                template = OptionTemplateFile;
+                group = 'file';
+                break;
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                template = OptionTemplateSelect;
+                group = 'select';
+                break;
+            case 'date':
+            case 'date_time':
+            case 'time':
+                template = OptionTemplateDate;
+                group = 'date';
+                break;
+        }
+
+        $('<?php echo $this->getFieldId() ?>_'+data.id+'_previous_group').value = group;
+
+        template = '<div id="<?php echo $this->getFieldId() ?>_{{id}}_type_'+group+'" class="grid tier form-list">'+template+'</div><div id="<?php echo $this->getFieldId() ?>_{{id}}_type_'+group+'_advice"></div>';
+
+        this.secondTemplate = new Template(template, this.templateSyntax);
+
+        Element.insert($('<?php echo $this->getFieldId() ?>_'+data.option_id), {'after':this.secondTemplate.evaluate(data)});
+
+        if (data.checkboxScopePrice) {
+            //set disabled
+            if ($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price') && data.scopePriceDisabled) {
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price').disable();
+                $('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price_type').disable();
+            }
+        }
+
+        switch(data.type){
+            case 'drop_down':
+            case 'radio':
+            case 'checkbox':
+            case 'multiple':
+                data.optionValues.each(function(value) {
+                    selectOptionType.add(value);
+                });
+                selectOptionType.bindAddButton();
+                break;
+        }
+
+        if (data.price_type) {
+            $A($('<?php echo $this->getFieldId() ?>_'+data.option_id+'_price_type').options).each(function(option){
+                if (option.value==data.price_type) option.selected = true;
+            });
+        }
+
+    },
+    bindSelectInputType : function(){
+        var types = $$('.select-product-option-type');
+        for(var i=0;i<types.length;i++){
+            if(!$(types[i]).binded){
+                $(types[i]).binded = true;
+                Event.observe(types[i], 'change', function(event){
+                    productOptionType.loadStepTwo(event);
+                });
+            }
+        }
+    }
+}
+
+var productOptionScope = {
+    addScope : function(event){
+        var element = $(Event.element(event));
+        fieldToDisable = $(element.readAttribute('id').sub('_use_default', ''));
+
+        if (fieldToDisable.disabled) {
+            if (fieldToDisable.hasClassName('product-option-price')) {//need change to cheking value of element
+                $(fieldToDisable.readAttribute('id')+'_type').enable();
+            }
+            fieldToDisable.enable();
+        } else {
+            if (fieldToDisable.hasClassName('product-option-price')) {//need change to cheking value of element
+                $(fieldToDisable.readAttribute('id')+'_type').disable();
+            }
+            fieldToDisable.disable();
+        }
+    },
+    bindScopeCheckbox : function(){
+        var checkboxes = $$('.product-option-scope-checkbox');
+        for (var i=0;i<checkboxes.length;i++) {
+            if (!$(checkboxes[i]).binded) {
+                $(checkboxes[i]).binded = true;
+                Event.observe(checkboxes[i], 'click', this.addScope.bind(this));
+            }
+        }
+    }
+}
+
+if($('option_panel')){
+    $('option_panel').remove();
+}
+
+productOption.bindRemoveButtons();
+
+if($('<?php echo $this->getAddButtonId() ?>')){
+    Event.observe('<?php echo $this->getAddButtonId() ?>', 'click', productOption.add.bind(productOption));
+}
+
+//validation for selected input type
+Validation.addAllThese([
+    ['required-option-select', <?php echo $this->helper('core')->jsonEncode(Mage::helper('catalog')->__('Select type of option')) ?>, function(v, elm) {
+        if (elm.getValue() == '') {
+            return false;
+        }
+        return true;
+}]]);
+
+//adding data to templates
+<?php foreach ($this->getOptionValues() as $_value): ?>
+    productOption.add(<?php echo $_value->toJson() ?>);
+    productOptionType.addDataToValues(<?php echo $_value->toJson() ?>);
+<?php endforeach; ?>
+
+
+
+
+<?php if ($this->checkTemplateAllowed()) { ?>
+
+var customTplTemplate = '<div class="option-box" id="option_{{id}}">'+
+            '<table id="<?php echo $this->getFieldId() ?>_{{id}}" class="option-header" cellpadding="0" cellspacing="0">'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_is_delete" name="<?php echo $this->getFieldName() ?>[{{id}}][is_delete]" value="" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_id" name="<?php echo $this->getFieldName() ?>[{{id}}][id]" value="{{id}}" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_option_id" name="<?php echo $this->getFieldName() ?>[{{id}}][option_id]" value="{{option_id}}" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_template_id" name="<?php echo $this->getFieldName() ?>[{{id}}][template_id]" value="{{template_id}}" />'+
+            '<input type="hidden" id="<?php echo $this->getFieldId() ?>_{{id}}_is_require" name="<?php echo $this->getFieldName() ?>[{{id}}][is_require]" value="0" />'+
+            '<thead>'+
+                '<tr>'+
+                    '<th class="opt-title" width=50%><?php echo Mage::helper('catalog')->__('Template Title') ?> </th>'+
+                    '<th class="opt-order" width=10%><?php echo Mage::helper('catalog')->__('Sort Order') ?></th>'+
+                    '<th class="a-right"><?php echo $this->getDeleteTplButtonHtml() ?></th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tr>'+
+                '<td><input type="text" class="required-entry input-text" id="<?php echo $this->getFieldId() ?>_{{id}}_title" name="<?php echo $this->getFieldName() ?>[{{id}}][title]" value="{{title}}" disabled="true"></td>'+
+                '<td><input type="text" class="validate-zero-or-greater input-text" name="<?php echo $this->getFieldName() ?>[{{id}}][sort_order]" value="{{sort_order}}"></td>'+
+                '<td>&nbsp;</td>'+
+            '</tr>'+
+            '<tr>'+
+                '<td colspan=3><b><?php echo Mage::helper('catalog')->__('Template Options') ?>:</b><br> {{options_list}}</td>'+
+            '</tr></table></div>';
+
+var productTpl = {
+    div : $('product_tpls_container_top'),
+    templateSyntax : /(^|.|\r|\n)({{(\w+)}})/,
+    templateText : customTplTemplate,
+    itemCount : 1,
+    add : function(data) {
+        this.template = new Template(this.templateText, this.templateSyntax);
+
+        if(!data.id){
+            data = {};
+            data.id  = this.itemCount;
+            data.type = '';
+            data.option_id = 0;
+        } else {
+            this.itemCount = data.item_count;
+        }
+
+        data.options_list = '';
+        
+        iTemplateId = data.template_id;
+        
+        if (iTemplateId && aTemplateOptionList[iTemplateId])
+        {
+            for (var i=1; i < aTemplateOptionList[iTemplateId].length; i++)
+            {
+                if (aTemplateOptionList[iTemplateId][i])
+                {
+                    opt = aTemplateOptionList[iTemplateId][i];
+                    
+                    data.options_list = data.options_list + opt.title;
+                    
+                    if (opt.optionValues)
+                    {
+                        data.options_list = data.options_list + ' (';
+                        
+                        opt.optionValues.each(function(option){
+                            data.options_list = data.options_list + option.title + ', ';
+                        });                        
+                        
+                        data.options_list = data.options_list.substr(0, data.options_list.length - 2);
+                        
+                        data.options_list = data.options_list + ')';
+                    }
+                    
+                    data.options_list = data.options_list + '<br>';
+                }
+            }
+        }
+        
+        Element.insert(this.div, {'after':this.template.evaluate(data)});
+
+        this.itemCount++;
+        this.bindRemoveButtons();
+////        productOptionType.bindSelectInputType();
+    },
+    remove : function(event){
+        var element = $(Event.findElement(event, 'div'));
+        if(element){
+            $('product_'+element.readAttribute('id')+'_'+'is_delete').value = '1';
+            element.addClassName('no-display');
+            element.addClassName('ignore-validate');
+            element.hide();
+            
+            var aParts = element.readAttribute('id').split('aitoctpl');
+
+            if (aTemplateUsedIds[aParts[1]])
+            {
+                aTemplateUsedIds[aParts[1]] = 0;
+            }
+        }
+    },
+    bindRemoveButtons : function(){
+        var buttons = $$('div.product-custom-options .delete-product-option');
+        for(var i=0;i<buttons.length;i++){
+            if(!$(buttons[i]).binded){
+                $(buttons[i]).binded = true;
+                Event.observe(buttons[i], 'click', this.remove.bind(this));
+            }
+        }
+    }
+}
+
+
+if($('add_new_template_set')){
+    console.log('OMGEEEEEE')
+    Event.observe('add_new_template_set', 'click', addTemplateSet);
+    console.log(addTemplateSet)
+}
+
+if($('add_new_template_tpl')){
+    Event.observe('add_new_template_tpl', 'click', addTemplateTpl);
+}
+if($('save_template_button')){
+    Event.observe('save_template_button', 'click', SaveTemplate);
+}
+
+    var aTemplateOptionList = []; var aTemplateOptionSrcList = [];
+    
+    var aTemplateDataList   = [];
+    
+    var aTemplateUsedIds = [];
+    
+<?php 
+
+    if ($aTemplateHash = $this->getTemplateHash()) 
+    {                         
+        foreach ($aTemplateHash as $iKey => $sTitle)
+        {
+            echo 'aTemplateDataList[' . $iKey . '] = {"id":"aitoctpl' . $iKey . '","template_id":"' . $iKey . '","option_id":"aitoctpl' . $iKey . '","title":"' . $sTitle . '","sort_order":"0"};
+                
+';
+            echo 'aTemplateOptionList[' . $iKey . '] = []; aTemplateOptionSrcList[' . $iKey . '] = [];
+';
+        }
+    } 
+?>                        
+
+ 
+<?php $aTemplateOptionCounter = array(); ?>
+    
+
+//adding data to templates
+<?php if ($aTemplatesOptionValues = $this->getTemplatesOptionValues(array_keys($aTemplateHash))) { ?>
+<?php foreach ($aTemplatesOptionValues as $_value): ?>
+    <?php $aOptionData = $_value->getData();  ?>
+    <?php if (!isset($aTemplateOptionCounter[$aOptionData['template_id']])) $aTemplateOptionCounter[$aOptionData['template_id']] = 0; ?>
+    <?php $aTemplateOptionCounter[$aOptionData['template_id']]++; ?>
+    aTemplateOptionList[<?php echo $aOptionData['template_id']; ?>][<?php echo $aTemplateOptionCounter[$aOptionData['template_id']]; ?>] = <?php echo $_value->toJson() ?>;
+    aTemplateOptionSrcList[<?php echo $aOptionData['template_id']; ?>][<?php echo $aTemplateOptionCounter[$aOptionData['template_id']]; ?>] = '<?php echo str_replace("'", '\\' . "'", $_value->toJson()) ?>';
+<?php endforeach; ?>
+<?php } ?>
+
+
+<?php 
+
+    echo 'var dataTpl = {"id":"0"};
+    ';
+
+    if ($aTemplate2ProductList = $this->getProductTemplateList()) 
+    {                         
+        foreach ($aTemplate2ProductList as $aTemplateData)
+        {
+            echo '
+            if (aTemplateDataList[' . $aTemplateData['template_id'] . '])
+            {
+                dataTpl = aTemplateDataList[' . $aTemplateData['template_id'] . '];
+                dataTpl.sort_order = ' . $aTemplateData['sort_order'] . ';
+                productTpl.add(dataTpl);
+                aTemplateUsedIds[' . $aTemplateData['template_id'] . '] = 1;
+            }
+';
+            
+        }
+    } 
+?> 
+
+function addTemplateSet()
+{
+    var iTemplateId = 0;
+    
+    if ($('add_template_select'))
+    {
+        iTemplateId = $('add_template_select').value;
+    }
+
+ //   var data = {"id":"0"};
+    
+    if (iTemplateId && aTemplateOptionList[iTemplateId])
+    {
+        aitdependable.startTemplateImport();
+        for (var i=1; i < aTemplateOptionList[iTemplateId].length; i++)
+        {
+            if (aTemplateOptionList[iTemplateId][i])
+            {
+                var sJson = aTemplateOptionSrcList[iTemplateId][i]; sJson = str_replace(sJson, aTemplateOptionList[iTemplateId][i].id, aTemplateOptionList[iTemplateId][i].id + "-" + Math.floor(Math.random()*100001)); eval('var data = ' + sJson + ';');
+                data.item_count = productOption.itemCount;
+                aitdependable.setTemplateOptionId(aTemplateOptionList[iTemplateId][i].id);
+                productOption.add(data);    
+                productOptionType.addDataToValues(data);
+            }
+        }
+        aitdependable.endTemplateImport();
+    }
+}
+ function str_replace(haystack, needle, replacement) { var temp = haystack.split(needle); return temp.join(replacement); }
+
+function addTemplateTpl()
+{
+    var iTemplateId = 0;
+    
+    if ($('add_template_select'))
+    {
+        iTemplateId = $('add_template_select').value;
+    }
+
+    var data = {"id":"0"};
+
+    if (aTemplateUsedIds[iTemplateId])
+    {
+        alert('<?php echo Mage::helper('catalog')->__('You have already added this template.') ?>');
+        return false;
+    }
+    
+    if (iTemplateId && aTemplateDataList[iTemplateId])
+    {
+        data = aTemplateDataList[iTemplateId];
+        
+        productTpl.add(data); 
+        aTemplateUsedIds[iTemplateId] = 1;   
+    }
+}
+function SaveTemplate()
+{
+<?php $productTpl = Mage::getResourceModel('aitoptionstemplate/aitproduct2tpl')->getProductTemplates(Mage::registry('current_product')->getId());
+        if(!empty($productTpl)){ ?>deleteConfirm('You have a whole custom options template(s) assigned to the Product. It will not be saved in the new Template. Only simple custom options will be saved.\n                                                   Do you agree to proceed?','<?php echo $this->getUrl('aitoptionstemplate/index/new',
+       array('optproduct_id'=>Mage::registry('current_product')->getId()));?>');<?php }else {?>window.location.replace('<?php echo $this->getUrl('aitoptionstemplate/index/new',
+       array('optproduct_id'=>Mage::registry('current_product')->getId()));?>');<?php } ?>
+}
+
+<?php } ?>
+
+
+
+//bind scope checkboxes
+productOptionScope.bindScopeCheckbox();
+//]]>
+</script>
+
+<div><?php if (!$this->isReadonly()):?><input type="hidden" name="affect_product_custom_options" value="1" /><?php endif;?></div>

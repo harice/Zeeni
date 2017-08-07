@@ -1,0 +1,228 @@
+.header-container .header-left .social-media a::after {
+    content: "";
+}
+.actions-inner.clearfix a.link-compare,
+ul.add-to-links.add-to-links-top a.link-compare {
+display: none
+}
+.testimonial-content-avatar img {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    height: 100%;
+    width: 100%;
+}
+i.fa.fa-quote-left,
+i.fa.fa-quote-right {
+    font-size: 35px;
+}
+.test-des {
+    font-size: 16px;
+}
+.testimonial-author {
+        font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.testimonial-date {
+    font-size: 12px;
+}
+
+.baseball-slider .f-col.f-col-1.col-sm-6.col-md-3.col-sms-6.col-smb-12 {
+    text-align: center;
+}
+
+/*
+ * Lettering Styles
+ */
+.lettering-styles {
+    text-align: center; 
+}
+
+.lettering-styles .header {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    z-index: 0;
+}
+
+.lettering-styles .screen .row > div {
+    height: 120px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.lettering .row > div,
+.tackle-img,
+.tackle-right > div {
+    margin: 15px 0;
+}
+
+/*
+ * Top Menu
+ */
+
+.affix {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: #fff;
+}
+
+.affix-top {
+  width: 100%;
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 100%;  
+}
+
+/*
+ * Category Banner
+ */
+.category-image {
+    text-align: center;
+}
+
+.thead-inverse th,
+.thead-inverse td {
+    color: #fff;
+    background-color: #373a3c;
+}
+
+.basketball-sections,
+.soccer-container {
+    display: inline-block;
+    width: 100%;
+}
+
+/*
+ * Numbers Page
+ */
+div.numbers .title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+div.number-container {
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.number-sections {
+    padding: 30px 15px;
+}
+
+.hr2, .hr5, .hr6 {
+    border-bottom: 1px solid #eee;
+}
+
+div.numbers h1 {
+    text-align: center;
+}
+
+/*
+ * Logos
+ */
+.football-logos td,
+.volleyball-logos td {
+    text-align: center;
+} 
+
+/*
+ * Soccer Size Chart
+ */
+.soccer-size-chart .row {
+    margin: 20px 0; 
+}
+
+/*
+ * Fabrics
+ */
+.fabrics table td {
+    text-align: center;
+}
+
+@media(max-width: 991px){
+    .hr1, .hr4 {
+        border-bottom: 1px solid #eee;
+    }
+}
+
+/*
+ * Softball Logos
+ */
+.visor-container {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #DDDDDD;
+}
+
+.visor-container .title {
+    padding: 10px;
+    color: #fff;
+    background-color: #373a3c;
+    text-align: left;
+}
+.visor-section {
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.softball-logos table tr.img-col td {
+    text-align: center;
+}
+
+span.label {
+    white-space: normal;
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 0;
+}
+
+/*
+ * Search Autocomplete
+ */
+div#search_autocomplete {
+    line-height: 2.5;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+}
+
+span.amount {
+    margin-right: 10px;
+    width: 30px;
+    display: block;
+    float: left;
+    font-weight: 600;
+}
+
+div#search_autocomplete li {
+    text-align: left;
+}
+
+.product-shop-inner .short-description,
+.short-description object {
+    width: 100%
+}
+
+@media(min-width: 768px){
+    .softball-slider .col-md-2,
+    .softball-slider .col-sm-2,
+    .basketball-slider .col-md-2,
+    .basketball-slider .col-sm-2,
+    .soccer-slider .col-md-2,
+    .soccer-slider .col-sm-2 {
+        width: 20%;
+    }
+}

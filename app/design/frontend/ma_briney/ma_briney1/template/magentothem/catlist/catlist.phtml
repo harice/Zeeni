@@ -1,0 +1,46 @@
+<div class="catlist">
+	<div class="title ma-title"><h2><?php echo $this->__('Shop by categories')?></h2></div>
+	 <div class="row">
+	<?php
+
+	$catListTop = $this->getCatListTop();
+	
+	$j = 0;
+	$last = count($catListTop);
+	foreach ($catListTop as $catTop) {
+		if($j < $last-3) echo '<div class="catgrid col-md-4 col-xs-12"><div class="catlist-content">';
+		else echo '<div class="catgrid last col-md-4 col-xs-12"><div class="catlist-content">';
+
+	    	
+						
+	   
+	    $CatList = $this->getCatByPath($catTop->getEntityId(), $catTop->getPath());
+	    ?>
+			<div class="pull-left">
+			<?php echo '<div class="catlist_level_top">
+						<h3><a href="' . Mage::getUrl($catTop->getUrlPath()). '">' 
+							.$catTop->getName() .'</a></h3>'
+		                    .'
+		                '
+		                .'</div>';?>
+		<?php
+	    $i = 0;
+		if(count($CatList) > 0):
+			echo '<ul class="subcat">';
+			foreach ($CatList as $cat) {
+			  if($i >= $this->getListCfg('number_items')) break;
+				echo '<li><a href="' . Mage::getUrl($cat->getUrlPath()). '">'.$cat->getName().'</a></li>';
+				$i++;
+			}
+			echo '</ul>';
+			$j++; // not trung voi $i o tren
+			endif;
+		?>
+			</div>
+		<?php
+		echo '<div class="media-body"><img src="'.$this->getImage($catTop).'" alt="'.$catTop->getName().'" /></div></div></div>';
+	}
+	?>
+		
+	</div>
+</div>

@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<ma_briney1>
+    <blocks>
+       
+        <block>
+            <title>Free Shipping</title>
+            <identifier>free_shipping</identifier>
+            <content>
+                    <![CDATA[
+						<div class="row">
+						<div class="col1 col-md-4 col-xs-12">
+						<div class="block-top-content">
+						<h3><i class="fa fa-truck">&nbsp;</i>FREE SHIPPING</h3>
+						<p>Oversized handling fee may apply</p>
+						</div>
+						</div>
+						<div class="col2 col-md-4 col-xs-12">
+						<div class="block-top-content">
+						<h3><i class="fa fa-money ">&nbsp;</i>MONEY BACK 100%</h3>
+						<p>The issue isn't in maximum 30 days</p>
+						</div>
+						</div>
+						<div class="col3 col-md-4 col-xs-12">
+						<div class="block-top-content">
+						<h3><i class="fa fa-unlock-alt">&nbsp;</i>PAYMENT SECURED</h3>
+						<p>No paypal account needed!</p>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+       
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                <![CDATA[
+					<div class="footer-static-top">
+					<div class="row">
+					<div class="f-col f-col-1 col-sm-6 col-md-4 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>Contact Us</h3>
+					</div>
+					<div class="footer-static-content">
+					<div class="footer-contact">
+					<p class="adress"><span class="ft-left">Address: </span> <span class="ft-content">19th Floor, 40 Bank Street, Canary Wharf, London, E14 5NR.</span></p>
+					<p class="email"><span class="ft-left">Email: </span> <span class="ft-content">Support@plazathemes.com</span></p>
+					<p class="phone"><span class="ft-left">Phone: </span><span class="ft-content">(800) 123 456 789</span></p>
+					<p class="fax"><span class="ft-left">Web: </span><span class="ft-content">plazathemes.com</span></p>
+					</div>
+					</div>
+					</div>
+					<div class="f-col f-col-2 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>Our Support</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="#">About Us</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Delivery Inforamtion</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li class="last"><a href="#">Terms &amp; Condition</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-3 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>My Account</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="#">My Account</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">My Cart</a></li>
+					<li><a href="#">Wishlist</a></li>
+					<li class="last"><a href="#">Checkout</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col  f-col-4 f-col-24 col-sm-6 col-md-4 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>Sign up for newsletter</h3>
+					</div>
+					<div class="footer-static-content">{{block type="newsletter/subscribe" name="right.newsletter" template="newsletter/subscribe.phtml"}}</div>
+					</div>
+					</div>
+					</div>
+                ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Ma Block Static 1</title>
+            <identifier>ma_block_static_1</identifier>
+            <content>
+                   <![CDATA[
+						<div class="ma-block-static-1 ma-banner">
+						<div class="col col1"><a href="{{store direct_url="women.html"}}"><img alt="" src="{{media url="wysiwyg/banner11.jpg"}}" /></a></div>
+						<div class="col col2"><a href="{{store direct_url="men.html"}}"><img alt="" src="{{media url="wysiwyg/banner12.jpg"}}" /></a></div>
+						<div class="col col3"><a href="{{store direct_url="jewellery.html"}}"><img alt="" src="{{media url="wysiwyg/banner13.jpg"}}" /></a></div>
+						<div class="col col4"><a href="{{store direct_url="accessories.html"}}"><img alt="" src="{{media url="wysiwyg/banner14.jpg"}}" /></a></div>
+						<div class="col col5"><a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/banner15.jpg"}}" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Contact Us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                   <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                   <![CDATA[
+						<ul>
+						<li><a href="{{store direct_url="contacts"}}">Contacts</a></li>
+						<li><a href="{{store direct_url="blog"}}">Blog</a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Payment</title>
+            <identifier>footer_payment</identifier>
+            <content>
+			   <![CDATA[
+					<div class="footer-payment"><a href="#"><img alt="" src="{{media url="wysiwyg/payment_1.png"}}" /></a></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Social Footer</title>
+            <identifier>social_footer</identifier>
+            <content>
+                   <![CDATA[
+						<div class="social-footer">
+						<div class="social-title">
+						<h3>Connect with us :</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul class="link-follow">
+						<li class="first"><a class="twitter fa fa-twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+						<li><a class="google fa fa-google-plus" href="#"><span>google </span></a></li>
+						<li><a class="facebook fa fa-facebook" href="https://www.facebook.com/plazathemes"><span>facebook</span></a></li>
+						<li><a class="linkedin fa fa-linkedin" href="#"><span>linkedin </span></a></li>
+						<li><a class="youtube fa fa-youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		
+		<block>
+            <title>Banner left</title>
+            <identifier>banner_left</identifier>
+            <content>
+			   <![CDATA[
+					<div class="banner-left hidden-xs"><a href="#"><img alt="" src="{{media url="wysiwyg/banner-left.jpg"}}" /></a></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Block Header Left</title>
+            <identifier>block_header_left</identifier>
+            <content>
+			   <![CDATA[
+					<p>It is especially for you when you first came to us <a href="#">read more</a></p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block Header Phone</title>
+            <identifier>block_header_phone</identifier>
+            <content>
+			   <![CDATA[
+					<p>Best in intensive care <span>+1 800 123 4567</span></p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Top Bottom</title>
+            <identifier>top_bottom</identifier>
+            <content>
+			   <![CDATA[
+					<div class="top-bottom">
+					<h2>Briney</h2>
+					<h4>Please keep contact with us. There are many products waiting for you to enjoy !</h4>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block Category</title>
+            <identifier>block_category</identifier>
+            <content>
+			   <![CDATA[
+					<div class="block-category">
+					<div class="pull-left"><img alt="" src="{{media url="wysiwyg/block-category.jpg"}}" /></div>
+					<div class="media-body">
+					<h3>Briney Plimsolls With Zips in Crocodile Effect</h3>
+					<div class="ma-des">See how ASOS customers have styled this item upload your own for AsSeenOnMe street-style fame .</div>
+					<a class="readmore" href="#"><span>View Detail</span></a></div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Block Item</title>
+            <identifier>block_item</identifier>
+            <content>
+			   <![CDATA[
+					<div class="block-item">
+					<div class="col-top-item col-item"><a href="#"><img alt="" src="{{media url="wysiwyg/item1.jpg"}}" /></a><a href="#"><img alt="" src="{{media url="wysiwyg/item2.jpg"}}" /></a></div>
+					<div class="col-bottom-item col-item"><a href="#"><img alt="" src="{{media url="wysiwyg/item3.jpg"}}" /></a><a href="#"><img alt="" src="{{media url="wysiwyg/item4.jpg"}}" /></a></div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+    </blocks>
+</ma_briney1>
+
